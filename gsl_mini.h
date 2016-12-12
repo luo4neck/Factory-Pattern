@@ -4,12 +4,12 @@
 
 class Sim 
 {
-public: 
-virtual void create_simplex() {}
-virtual void create_simplex2() {}
-virtual void create_simplex2rand() {}
+    public: 
+    virtual void create_simplex() {}
+    virtual void create_simplex2() {}
+    virtual void create_simplex2rand() {}
 
-//FILE *p;
+    //FILE *p;
 };
 
 class simplex: public Sim
